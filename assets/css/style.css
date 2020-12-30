@@ -67,10 +67,10 @@ a:hover {
         background-size: 650%;
     }
     40% {
-        background-size: 650%;
+        background-size: 50%;
     }
     100% {
-        background-size: 100%;
+        background-size: 30%;
     }
 }
 
@@ -867,7 +867,7 @@ section {
 .about .play-btn {
   width: 94px;
   height: 94px;
-  background: radial-gradient(#3f43fd 50%, rgba(63, 67, 253, 0.4) 52%);
+  background: radial-gradient(#d65a31 50%, rgba(95, 95, 100, 0.4) 52%);
   border-radius: 50%;
   display: block;
   position: absolute;
