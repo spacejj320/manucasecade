@@ -479,6 +479,22 @@ h1, h2, h3, h4, h5, h6 {
 .mobile-nav-active .mobile-nav-toggle i {
   color: #fff;
 }
+.wtapp{
+  cursor: pointer;
+  width: auto;
+  padding: 6px;
+  background-color: #0be27a;
+  color: white;
+  font-weight: 400;
+  position: fixed;
+  z-index: 999;
+  bottom: 15px;
+  left: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 25px;
+  
+}
 
 /*--------------------------------------------------------------
 # Hero Section
