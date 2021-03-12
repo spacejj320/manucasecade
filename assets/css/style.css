@@ -187,6 +187,19 @@ h1, h2, h3, h4, h5, h6 {
   background: #d65a31;
   color: #fff;
 }
+.showbtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 15px;
+  width: 140px;
+  height: 40px;
+  border-color: #d65a31;
+  border-radius: 50px;
+  background: #d65a31;
+  color: #fff;
+}
+
 
 /*--------------------------------------------------------------
 # Disable AOS delay on mobile
