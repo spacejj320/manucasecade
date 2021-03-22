@@ -1777,6 +1777,37 @@ section {
   transition: 0.3s;
   border-radius: 50px;
 }
+.ontainer {
+  position: relative;
+  width: 50%;
+}
+
+/* Make the image responsive */
+.ontainer img {
+  width: 100%;
+  height: auto;
+}
+
+/* Style the button and place it in the middle of the container/image */
+.ontainer .btn {
+  position: absolute;
+  top: 50%;
+  left: 100%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #d65a31;
+  color: white;
+  font-size: 16px;
+  padding: 0px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-top: 199px;
+}
+
+.ontainer .btn:hover {
+  background-color: rgb(121, 14, 14);
+}
 
 #footer .footer-top .footer-newsletter form input[type="submit"]:hover {
   background: rgba(68, 68, 70, 0.9);
